@@ -23,7 +23,7 @@ while Programe_over is False:
                 return False
 
         if number< 0:
-            print("You have input negative number")
+            print("Your input is a negative number")
 
         else:
             if boolean == 0 or boolean == 1:
