@@ -1,6 +1,6 @@
-print("\t \t \t \t \t \t \t \t \t \t "+"***CodeOfStar***"+"\n")
+print("\t \t \t \t \t \t \t \t \t \t ** CodeOfStar **")
 
-print("Input q for quit \n")
+print("Input q for quit.\n")
 
 Programe_over = False
 
@@ -12,7 +12,7 @@ while Programe_over is False:
     else:
         print("\n Code Of Star Pattern \n ")
 
-        boolean = int(input("1 for decreasing order and 0 for increasing order:"))
+        boolean = int(input("Press 1 for decreasing order and 0 for increasing order:"))
         number = int(n)
         new_n = number + 1
 
@@ -28,13 +28,13 @@ while Programe_over is False:
         else:
             if boolean == 0 or boolean == 1:
 
-                if (convert_bool(boolean)):
+                if convert_bool(boolean):
                     print("\n * pattern in ascending order")
 
                     for times in range(new_n):
                         print("*" * times)
 
-                elif (not convert_bool(boolean)):
+                elif not convert_bool(boolean):
                     print("* pattern in decending order")
 
                     # This thing can be done by for loop but it become complex
